@@ -1,0 +1,16 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>3daaa55a-7b2d-4e2a-966a-4db38acc59c9</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.1</RuntimeVersion>
+    <WebRoot>public</WebRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\views\components\" />
+  </ItemGroup>
+</Project>

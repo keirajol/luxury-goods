@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homebox {
+    width: 1900px;
+    height: 550px;
+    background-color: purple;
+    margin-top: 120px;
+}
+
+.margin {
+    margin-top: 75px;
+}

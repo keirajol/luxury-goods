@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.header {
+    height: 125px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.header a, p {
+    margin-top: 35px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.header a:hover, p:hover {
+    border-bottom: solid black 3px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+a:focus {
+    color: black;
+}
+
+a img {
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: dotted red 1px;
+    min-width: 1000px;
+    padding: 12px 16px;
+    margin-top: 47px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

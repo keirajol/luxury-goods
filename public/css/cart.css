@@ -1,0 +1,13 @@
+table {
+    margin-top: 150px;
+}
+
+.cart-image {
+    width: 120px;
+    height: 120px;
+    align-items: center;
+}
+
+.cart-row td {
+    border-right: solid 3px gold;
+}

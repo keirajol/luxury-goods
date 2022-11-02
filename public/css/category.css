@@ -1,0 +1,16 @@
+.category-box {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    background-color: gray;
+    text-align: center;
+}
+
+.product_img {
+    width: 120px;
+    height: 120px;
+}
+
+.product_details {
+    margin-right: 20px;
+}
